@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a200tsbv484-3" LaunchTime="1718201042">
+  <File Type="ROUTE-PWR" Name="thirtytwoBitFullAdder_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="thirtytwoBitFullAdder.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="thirtytwoBitFullAdder_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="thirtytwoBitFullAdder_reports.tcl"/>
+  <File Type="BITSTR-MSK" Name="thirtytwoBitFullAdder.msk"/>
+  <File Type="ROUTE-CLK" Name="thirtytwoBitFullAdder_clock_utilization_routed.rpt"/>
+  <File Type="RDI-RDI" Name="thirtytwoBitFullAdder.vdi"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="thirtytwoBitFullAdder_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="thirtytwoBitFullAdder.bit"/>
+  <File Type="BG-DRC" Name="thirtytwoBitFullAdder.drc"/>
+  <File Type="BG-BGN" Name="thirtytwoBitFullAdder.bgn"/>
+  <File Type="BG-BIN" Name="thirtytwoBitFullAdder.bin"/>
+  <File Type="BITSTR-RBT" Name="thirtytwoBitFullAdder.rbt"/>
+  <File Type="BITSTR-NKY" Name="thirtytwoBitFullAdder.nky"/>
+  <File Type="BITSTR-BMM" Name="thirtytwoBitFullAdder_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="thirtytwoBitFullAdder.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="thirtytwoBitFullAdder_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-SYSDEF" Name="thirtytwoBitFullAdder.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="thirtytwoBitFullAdder.ltx"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="OPT-DRC" Name="thirtytwoBitFullAdder_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="thirtytwoBitFullAdder.hwdef"/>
+  <File Type="PLACE-IO" Name="thirtytwoBitFullAdder_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="thirtytwoBitFullAdder_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="thirtytwoBitFullAdder_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="thirtytwoBitFullAdder_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="thirtytwoBitFullAdder_incremental_reuse_pre_placed.rpt"/>
+  <File Type="ROUTE-DRC" Name="thirtytwoBitFullAdder_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="thirtytwoBitFullAdder_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="thirtytwoBitFullAdder_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="thirtytwoBitFullAdder_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="thirtytwoBitFullAdder_route_status.pb"/>
+  <File Type="ROUTE-DCP" Name="thirtytwoBitFullAdder_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="thirtytwoBitFullAdder_routed_error.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="thirtytwoBitFullAdder_routed_bb.dcp"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="thirtytwoBitFullAdder_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="thirtytwoBitFullAdder_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="thirtytwoBitFullAdder_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="thirtytwoBitFullAdder_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="thirtytwoBitFullAdder_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="thirtytwoBitFullAdder_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="thirtytwoBitFullAdder_bus_skew_routed.rpx"/>
+  <File Type="OPT-DCP" Name="thirtytwoBitFullAdder_opt.dcp"/>
+  <File Type="PLACE-DCP" Name="thirtytwoBitFullAdder_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="thirtytwoBitFullAdder_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="thirtytwoBitFullAdder_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="thirtytwoBitFullAdder_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="thirtytwoBitFullAdder_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="thirtytwoBitFullAdder_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="thirtytwoBitFullAdder_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="thirtytwoBitFullAdder_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="thirtytwoBitFullAdder_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="thirtytwoBitFullAdder_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="thirtytwoBitFullAdder_bus_skew_postroute_physopted.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="thirtytwoBitFullAdder_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="thirtytwoBitFullAdder_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="thirtytwoBitFullAdder_methodology_drc_routed.rpx"/>
+  <File Type="PDI-FILE" Name="thirtytwoBitFullAdder.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="thirtytwoBitFullAdder_boot.pdi"/>
+  <File Type="PL-PDI-FILE" Name="thirtytwoBitFullAdder_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="thirtytwoBitFullAdder.rcfi"/>
+  <File Type="CFI_FILE" Name="thirtytwoBitFullAdder.cfi"/>
+  <File Type="RNPI_FILE" Name="thirtytwoBitFullAdder.rnpi"/>
+  <File Type="NPI_FILE" Name="thirtytwoBitFullAdder.npi"/>
+  <File Type="RBD_FILE" Name="thirtytwoBitFullAdder.rbd"/>
+  <File Type="ROUTE-RQS" Name="thirtytwoBitFullAdder_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="thirtytwoBitFullAdder_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/Adder.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ID_EX.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/EX_MEM.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/IF_ID.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ProgramCounter.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/SignExtend.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Mux.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ALU.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/MEM_WB.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/JumpConcat.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Decoder.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/LeftShift.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/DFF.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/HazardDetectionUnit.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Mux5bit2to1.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/DataForwardingUnit.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Gates.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Reg32.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/RegFile32.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ALUController.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/DataMemory32.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/RegFile.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/InstructionMemory32.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/MainController.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Mux32.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="thirtytwoBitFullAdder"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
+  </Strategy>
+</GenRun>

@@ -1,0 +1,191 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Wed Jun 12 19:29:11 2024
+# Process ID: 8824
+# Current directory: C:/Users/Acer/OneDrive/Desktop/All Folder In One/Vivado Code Folder/5 Stage Pipline In MISI 32 Bit System/5 Stage Pipline In MISI 32 Bit System.runs/synth_1
+# Command line: vivado.exe -log thirtytwoBitFullAdder.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source thirtytwoBitFullAdder.tcl
+# Log file: C:/Users/Acer/OneDrive/Desktop/All Folder In One/Vivado Code Folder/5 Stage Pipline In MISI 32 Bit System/5 Stage Pipline In MISI 32 Bit System.runs/synth_1/thirtytwoBitFullAdder.vds
+# Journal file: C:/Users/Acer/OneDrive/Desktop/All Folder In One/Vivado Code Folder/5 Stage Pipline In MISI 32 Bit System/5 Stage Pipline In MISI 32 Bit System.runs/synth_1\vivado.jou
+# Running On: LAPTOP-8RAI27Q6, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 8, Host memory: 16931 MB
+#-----------------------------------------------------------
+source thirtytwoBitFullAdder.tcl -notrace
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 485.398 ; gain = 181.438
+Command: synth_design -top thirtytwoBitFullAdder -part xc7a200tsbv484-3
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 9396
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 930.879 ; gain = 441.496
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'thirtytwoBitFullAdder' [C:/Users/Acer/OneDrive/Desktop/All Folder In One/Vivado Code Folder/5 Stage Pipline In MISI 32 Bit System/5 Stage Pipline In MISI 32 Bit System.srcs/sources_1/new/Adder.v:114]
+INFO: [Synth 8-6157] synthesizing module 'eightBitFullAdder' [C:/Users/Acer/OneDrive/Desktop/All Folder In One/Vivado Code Folder/5 Stage Pipline In MISI 32 Bit System/5 Stage Pipline In MISI 32 Bit System.srcs/sources_1/new/Adder.v:85]
+INFO: [Synth 8-6157] synthesizing module 'fourBitFullAdder' [C:/Users/Acer/OneDrive/Desktop/All Folder In One/Vivado Code Folder/5 Stage Pipline In MISI 32 Bit System/5 Stage Pipline In MISI 32 Bit System.srcs/sources_1/new/Adder.v:54]
+INFO: [Synth 8-6157] synthesizing module 'oneBitFullAdder' [C:/Users/Acer/OneDrive/Desktop/All Folder In One/Vivado Code Folder/5 Stage Pipline In MISI 32 Bit System/5 Stage Pipline In MISI 32 Bit System.srcs/sources_1/new/Adder.v:25]
+INFO: [Synth 8-6157] synthesizing module 'halfAdder' [C:/Users/Acer/OneDrive/Desktop/All Folder In One/Vivado Code Folder/5 Stage Pipline In MISI 32 Bit System/5 Stage Pipline In MISI 32 Bit System.srcs/sources_1/new/Adder.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'halfAdder' (0#1) [C:/Users/Acer/OneDrive/Desktop/All Folder In One/Vivado Code Folder/5 Stage Pipline In MISI 32 Bit System/5 Stage Pipline In MISI 32 Bit System.srcs/sources_1/new/Adder.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'oneBitFullAdder' (0#1) [C:/Users/Acer/OneDrive/Desktop/All Folder In One/Vivado Code Folder/5 Stage Pipline In MISI 32 Bit System/5 Stage Pipline In MISI 32 Bit System.srcs/sources_1/new/Adder.v:25]
+INFO: [Synth 8-6155] done synthesizing module 'fourBitFullAdder' (0#1) [C:/Users/Acer/OneDrive/Desktop/All Folder In One/Vivado Code Folder/5 Stage Pipline In MISI 32 Bit System/5 Stage Pipline In MISI 32 Bit System.srcs/sources_1/new/Adder.v:54]
+INFO: [Synth 8-6155] done synthesizing module 'eightBitFullAdder' (0#1) [C:/Users/Acer/OneDrive/Desktop/All Folder In One/Vivado Code Folder/5 Stage Pipline In MISI 32 Bit System/5 Stage Pipline In MISI 32 Bit System.srcs/sources_1/new/Adder.v:85]
+INFO: [Synth 8-6155] done synthesizing module 'thirtytwoBitFullAdder' (0#1) [C:/Users/Acer/OneDrive/Desktop/All Folder In One/Vivado Code Folder/5 Stage Pipline In MISI 32 Bit System/5 Stage Pipline In MISI 32 Bit System.srcs/sources_1/new/Adder.v:114]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 1037.703 ; gain = 548.320
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 1037.703 ; gain = 548.320
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a200tsbv484-3
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a200tsbv484-3
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 1037.703 ; gain = 548.320
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 1037.703 ; gain = 548.320
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 64    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 740 (col length:100)
+BRAMs: 730 (col length: RAMB18 100 RAMB36 50)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:36 . Memory (MB): peak = 1259.062 ; gain = 769.680
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:36 . Memory (MB): peak = 1264.883 ; gain = 775.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:16 ; elapsed = 00:00:36 . Memory (MB): peak = 1264.883 ; gain = 775.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:21 ; elapsed = 00:00:41 . Memory (MB): peak = 1264.883 ; gain = 775.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:21 ; elapsed = 00:00:41 . Memory (MB): peak = 1264.883 ; gain = 775.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:21 ; elapsed = 00:00:41 . Memory (MB): peak = 1264.883 ; gain = 775.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:21 ; elapsed = 00:00:41 . Memory (MB): peak = 1264.883 ; gain = 775.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:21 ; elapsed = 00:00:41 . Memory (MB): peak = 1264.883 ; gain = 775.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:21 ; elapsed = 00:00:41 . Memory (MB): peak = 1264.883 ; gain = 775.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT2 |    14|
+|2     |LUT3 |    13|
+|3     |LUT5 |    38|
+|4     |LUT6 |    14|
+|5     |IBUF |    65|
+|6     |OBUF |    33|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |   177|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:21 ; elapsed = 00:00:41 . Memory (MB): peak = 1264.883 ; gain = 775.500
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:21 ; elapsed = 00:00:41 . Memory (MB): peak = 1264.883 ; gain = 775.500
+Synthesis Optimization Complete : Time (s): cpu = 00:00:21 ; elapsed = 00:00:41 . Memory (MB): peak = 1264.883 ; gain = 775.500
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1276.930 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1376.160 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: eef0e567
+INFO: [Common 17-83] Releasing license: Synthesis
+20 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:45 . Memory (MB): peak = 1376.160 ; gain = 890.762
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1376.160 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Acer/OneDrive/Desktop/All Folder In One/Vivado Code Folder/5 Stage Pipline In MISI 32 Bit System/5 Stage Pipline In MISI 32 Bit System.runs/synth_1/thirtytwoBitFullAdder.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file thirtytwoBitFullAdder_utilization_synth.rpt -pb thirtytwoBitFullAdder_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Jun 12 19:30:10 2024...
